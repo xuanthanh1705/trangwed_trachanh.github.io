@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div>ul{
+    font-family: sans-serif;
+    color: aqua;
+}
+#menu ul {
+    list-style-type: none;
+    background: blanchedalmond;
+    text-align: center;
+}
+#menu ul li{
+    color: aqua;
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+#menu ul li a{
+    color: black;
+    text-decoration:none ;
+    display: block;
+}
+#menu ul li a:hover{
+    background: aqua;
+    color: white;
+}
+#menu ul li > .sub-menu {
+    display: none;
+    position: absolute;
+}
+#menu ul li:hover .sub-menu{
+    display: block;
+}
+.m2{
+    display: flex;
+    text-align: center;
+
+}
+.hang img{
+    height: 351px;
+    width: 80%;
+}
+h2{
+    border: 2px solid grey;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.headline{
+    text-align: center;
+    padding: 2%;
+}
+.headline :hover{
+    color: white;
+    background-color: aquamarine;
+}
+.hang a{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hang div{
+    font-size: 25px;
+}
+.hang a :hover{
+    color: red;
+}
+.mohinh{
+    margin-left: 100px;
+}
+.mohinh h1{
+    margin-left: 30px;
+    color: red;
+}
+.mohinh div{
+    font-size: 25px;
+}
+.mohinh img{
+    margin-left: 100px;
+    width: 80%;
+}
